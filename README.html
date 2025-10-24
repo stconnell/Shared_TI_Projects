@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Steve Connell — Past Projects (HTML README)</title>
+<style>
+  body{font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; 
+       line-height:1.55; margin: 2rem; color:#1a1a1a;}
+  h1{font-size:1.8rem; margin-top:0}
+  h2{margin-top:2rem; font-size:1.35rem; border-bottom:1px solid #e5e5e5; padding-bottom:.25rem}
+  h3{margin-top:1rem; font-size:1.05rem}
+  ul{margin:.25rem 0 1rem 1.25rem}
+  code, .mono{font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;}
+  .files a{white-space:nowrap}
+  .desc{color:#555}
+  .section{margin-bottom:1.5rem}
+  .note{font-size:.95rem; color:#555}
+</style>
+</head>
+<body>
+
+<h1>Steve Connell — Past Projects</h1>
+Sharing some past work done during time at TI.<br><br>
+
+This README describes the contents of what's being shared, and quick links to the files and docs (where applicable).
+
+<!-- SNTP CLIENT -->
+<div class="section" id="sntp-client">
+  <h2>SNTP Client</h2>
+  <p class="desc">Work corresponding to the SNTP item on my resume.</p>
+
+  <h3>Files</h3>
+  <ul class="files">
+    <li><a href="sntp/sntp.h">sntp/sntp.h</a></li>
+    <li><a href="sntp/sntp.c">sntp/sntp.c</a></li>
+  </ul>
+
+  <h3>API documentation</h3>
+  <ul>
+    <li><a href="sntp/docs/doxygen/html/index.html"><strong>SNTP and MYTIME API Documentation (Doxygen index)</strong></a></li>
+    <li><a href="sntp/docs/doxygen/html/sntp_8h.html">SNTP API (sntp.h)</a></li>
+    <li><a href="sntp/docs/doxygen/html/mytime_8h.html">MYTIME API (mytime.h)</a></li>
+  </ul>
+</div>
+
+<!-- TI F2838x ETHERNET DRIVER -->
+<div class="section" id="ti-f2838x-ethernet">
+  <h2>TI F2838x Ethernet Driver</h2>
+  <p class="desc">Ethernet driver for the TI Concerto F2838x device.</p>
+
+  <h3>Files</h3>
+  <ul class="files">
+    <li><a href="eth_driver_ti_f2838/EMACF2838X.h">eth_driver_ti_f2838/EMACF2838X.h</a></li>
+    <li><a href="eth_driver_ti_f2838/EMACF2838X.c">eth_driver_ti_f2838/EMACF2838X.c</a></li>
+  </ul>
+
+  <h3>API documentation</h3>
+  <p class="note">N/A</p>
+</div>
+
+<!-- DSP/BIOS UTILITIES -->
+<div class="section" id="dsp-bios-utils">
+  <h2>DSP/BIOS Utilities</h2>
+  <p class="desc">Project containing the TLV format (see <code style="font-family: 'Courier New', monospace;">struct Header</code> in LogAux.c) used to store log data into packets.</p>
+
+  <h3>Files</h3>
+  <ul class="files">
+    <li><a href="biosutils_1_02_02/packages/ti/bios/log/support/LogAux.h">biosutils_1_02_02/packages/ti/bios/log/support/LogAux.h</a></li>
+    <li><a href="biosutils_1_02_02/packages/ti/bios/log/support/LogAux.c">biosutils_1_02_02/packages/ti/bios/log/support/LogAux.c</a></li>
+  </ul>
+
+  <h3>API documentation</h3>
+  <ul>
+    <li><a href="biosutils_1_02_02/packages/xdoc/ti/bios/log/support/LogAux.html">LogAux module documentation</a></li>
+    <li><a href="biosutils_1_02_02/packages/xdoc/ti/bios/log/support/LogTrack.html">LogTrack module documentation</a></li>
+    <li><a href="biosutils_1_02_02/packages/xdoc/ti/bios/log/support/package.html">ti.bios.log.support package overview</a></li>
+    <li><a href="biosutils_1_02_02/packages/xdoc/all-packages.html">All packages (xdoc index)</a></li>
+  </ul>
+</div>
+
+<!-- FOOTER -->
+</body>
+</html>
